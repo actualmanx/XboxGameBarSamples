@@ -2,8 +2,7 @@
 #include "WidgetIPC.h"
 #include "WidgetIPC.g.cpp"
 #include "WidgetftFactoryCreate.h"
-
-#include "winrt\WidgetFTServer.h"
+#include "../WidgetFTServer/x64/Debug/Generated Files/winrt/WidgetFTServer.h"
 
 using namespace winrt;
 using namespace winrt::Windows::UI::Xaml;

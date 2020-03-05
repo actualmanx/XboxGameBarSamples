@@ -59,6 +59,7 @@
   <ItemGroup>
     <None Include="PropertySheet.props" />
     <None Include="packages.config" />
+    <None Include="C:\Users\alburt\repos\gamebar_github\XboxGameBarSamples\Samples\WidgetIPCSample\WidgetIPCSample\WidgetFTServer\Debug\x64\WidgetFTServer.exe" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />

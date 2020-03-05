@@ -1,5 +1,6 @@
 #pragma once
 #include "WidgetftFactory.g.h"
+//#include "WidgetFTServer.WidgetftFactory.g.h"
 
 namespace winrt::WidgetFTServer::implementation
 {

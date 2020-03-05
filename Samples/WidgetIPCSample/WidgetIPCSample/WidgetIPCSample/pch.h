@@ -27,6 +27,7 @@
 //#include <wil\resource.h>
 //#include <wil\result.h>
 
+#include <winrt/WidgetIPCSample.h>
 #include <unknwn.h>
 #include <restrictederrorinfo.h>
 #include <hstring.h>

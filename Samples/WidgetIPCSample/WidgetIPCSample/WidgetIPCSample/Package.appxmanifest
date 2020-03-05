@@ -9,7 +9,7 @@
   <Identity
     Name="WidgetIPCSample"
     Publisher="CN=alburt"
-    Version="1.0.0.0" />
+    Version="1.0.1.0" />
   <mp:PhoneIdentity PhoneProductId="e6d302d2-df36-4611-9bbd-1045451b4f45" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
   <Properties>
     <DisplayName>WidgetIPCSample</DisplayName>
