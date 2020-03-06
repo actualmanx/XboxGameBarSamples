@@ -89,6 +89,8 @@
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
       <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;WINRT_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+	  <AdditionalIncludeDirectories> C:\Users\alburt\repos\gamebar_github\XboxGameBarSamples\Samples\WidgetIPCSample\WidgetIPCSample\WidgetFTServer\x64\Debug\Generated Files\winrt\WidgetFTServer.h;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+   
     </ClCompile>
     <Link>
       <GenerateWindowsMetadata>false</GenerateWindowsMetadata>

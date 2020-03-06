@@ -4,7 +4,7 @@
 //#include "../WidgetFTServer/x64/Debug/Generated Files/winrt/WidgetFTServer.h"
 
 
-namespace winrt::WidgetIPCSample
+namespace winrt::WidgetIPCSample::implementation
 {
     winrt::WidgetFTServer::WidgetftFactory WidgetftFactoryCreate()
     {
