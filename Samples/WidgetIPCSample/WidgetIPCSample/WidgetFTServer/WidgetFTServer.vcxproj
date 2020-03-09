@@ -141,6 +141,9 @@ xcopy /y $(OutDir)WidgetFTServer.winmd $(SolutionDir)External\$(ProjectName)\$(C
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+	<None Include="C:\Users\alburt\repos\gamebar_github\XboxGameBarSamples\Samples\WidgetIPCSample\WidgetIPCSample\WidgetFTServer\Debug\x64\WidgetFTServer.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png" />

@@ -9,7 +9,7 @@ namespace winrt::WidgetIPCSample::implementation
     winrt::WidgetFTServer::WidgetftFactory WidgetftFactoryCreate()
     {
         winrt::com_ptr<IActivationFactory> widgetftComFactory;
-        winrt::check_hresult(CoCreateInstance(
+        winrt::hresult  hr = (CoCreateInstance(
             __uuidof(WidgetftComFactory),
             nullptr,
             CLSCTX_LOCAL_SERVER,
