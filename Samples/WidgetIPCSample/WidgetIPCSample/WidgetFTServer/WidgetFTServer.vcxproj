@@ -135,7 +135,7 @@ xcopy /y $(OutDir)WidgetFTServer.winmd $(SolutionDir)External\$(ProjectName)\$(C
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="WidgetftComFactory.h" />
-    <ClInclude Include="WidgetFTServer.WidgetftFactory.h" />
+    <ClInclude Include="WidgetftFactory.h" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -158,10 +158,10 @@ xcopy /y $(OutDir)WidgetFTServer.winmd $(SolutionDir)External\$(ProjectName)\$(C
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
     <ClCompile Include="WidgetftComFactory.cpp" />
     <ClCompile Include="WinMain.cpp" />
-    <ClCompile Include="WidgetFTServer.WidgetftFactory.cpp" />
+    <ClCompile Include="WidgetftFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Midl Include="WidgetFTServer.WidgetftFactory.idl" />
+    <Midl Include="WidgetftFactory.idl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
