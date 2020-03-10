@@ -43,3 +43,5 @@
 #include <winrt/Windows.UI.Xaml.Navigation.h>
 #include <winrt/Microsoft.Gaming.XboxGameBar.h>
 #include <winrt/Windows.ApplicationModel.Core.h>
+
+#include "../WidgetFTServer/WidgetftComFactory.h"
